@@ -24,7 +24,7 @@ $ npm install --save-dev typescript @types/express nodemon ts-node @types/morgan
 
 # How to run 
 ```
-$ git clone https://github.com/betapcode/simple-rest-api-typescript-nodejs-mysql.git
+$ git clone https://github.com/saran-ensar/simple-rest-api-typescript-nodejs-mysql.git
 $ cd simple-rest-api-typescript-nodejs-mysql
 $ npm install
 $ npm run dev # run for developer
