@@ -8,6 +8,8 @@
 | Description        |    URL        | Method  |
 | ------------- |:-------------:| -----:|
 |  Get List Post     | http://localhost:3000/posts | GET |
+ Get List session withstudents     | http://localhost:3000/sessions | GET |
+  Get session by id     | http://localhost:3000/sessions/id | GET |
 | Create Post      | http://localhost:3000/posts      |   POST |
 | Get a Post | http://localhost:3000/posts/:id      |    GET |
 | Update a Post | http://localhost:3000/posts/:id      |    PUT |
