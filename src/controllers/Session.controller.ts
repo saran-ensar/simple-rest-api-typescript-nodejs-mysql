@@ -21,7 +21,7 @@ export async function getSession(req: Request, res: Response): Promise<Response>
     } catch (e) {
         return res.status(200).json({
             message: e.message,
-            error:e
+            error: e
         });
     }
 
@@ -40,7 +40,7 @@ export async function getSessionstudents(req: Request, res: Response): Promise<R
     } catch (e) {
         return res.status(200).json({
             message: e.message,
-            e
+            error: e
         });
     }
 
