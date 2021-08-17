@@ -6,8 +6,8 @@ export async function connect() {
         host: 'localhost',
         user: 'root',
         password: 'password',
-        database: 'test_dev',
-        connectionLimit: 10
+        database: 'test_dev'
+       // connectionLimit: 10
     });
     
     return connection;
